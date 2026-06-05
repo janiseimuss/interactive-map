@@ -32,8 +32,8 @@ function createSymbolIcon(symbolType) {
   return L.divIcon({
     className: '',
     html: getSymbolHtml(symbolType),
-    iconSize: isTriangle ? [22, 20] : [18, 18],
-    iconAnchor: isTriangle ? [11, 18] : [9, 9],
+    iconSize: isTriangle ? [22, 20] : [12, 12],
+    iconAnchor: isTriangle ? [11, 18] : [6, 6],
     popupAnchor: [0, -10]
   });
 }
