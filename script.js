@@ -27,7 +27,7 @@ function getSymbolHtml(symbolType) {
 }
 
 function createSymbolIcon(symbolType) {
-  const isTriangle = symbolType === 'lvrtc-access' || symbolType === 'tet-pm';
+  const isTriangle = symbolType === 'lvrtc-access';
 
   return L.divIcon({
     className: '',
