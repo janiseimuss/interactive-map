@@ -1,23 +1,107 @@
 [
   {
-    "x": 1366,
-    "y": 763,
-    "title": "Testa punkts",
-    "description": "Šis ir pirmais testa punkts kartes vidū.",
-    "symbolType": "tet-pm"
+    "x": 206,
+    "y": 513,
+    "title": "Dubeni",
+    "description": "",
+    "symbolType": "tele2-bs"
   },
   {
-    "x": 1271,
-    "y": 579,
-    "title": "Iecava",
+    "x": 304,
+    "y": 435,
+    "title": "Kaleti",
     "description": "",
-    "symbolType": "tele2-hub"
+    "symbolType": "tele2-bs"
+  },
+  {
+    "x": 347,
+    "y": 490,
+    "title": "Priekule",
+    "description": "",
+    "symbolType": "tele2-bs"
+  },
+  {
+    "x": 441,
+    "y": 460,
+    "title": "Vainode",
+    "description": "",
+    "symbolType": "tele2-bs"
+  },
+  {
+    "x": 540,
+    "y": 507,
+    "title": "Nigrande",
+    "description": "",
+    "symbolType": "tele2-bs"
+  },
+  {
+    "x": 572,
+    "y": 497,
+    "title": "Kareli",
+    "description": "",
+    "symbolType": "tele2-bs"
+  },
+  {
+    "x": 615,
+    "y": 460,
+    "title": "Ezere",
+    "description": "",
+    "symbolType": "tele2-bs"
+  },
+  {
+    "x": 712,
+    "y": 438,
+    "title": "Ruba",
+    "description": "",
+    "symbolType": "tele2-bs"
+  },
+  {
+    "x": 812,
+    "y": 493,
+    "title": "Auce",
+    "description": "",
+    "symbolType": "tele2-bs"
+  },
+  {
+    "x": 914,
+    "y": 496,
+    "title": "Penkule",
+    "description": "",
+    "symbolType": "tele2-bs"
+  },
+  {
+    "x": 974,
+    "y": 514,
+    "title": "Kronauce",
+    "description": "",
+    "symbolType": "tele2-bs"
   },
   {
     "x": 2361,
-    "y": 945,
-    "title": "Balvi, LVRTC",
-    "description": "Tele2 BS Balvi, BAL0586\nTet tornis\nLVRTC piekļuves punkts",
-    "symbolType": "tele2-hub"
+    "y": 946,
+    "title": "Brīvības iela 58, Balvi",
+    "description": "",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 2362,
+    "y": 944,
+    "title": "Balvi",
+    "description": "",
+    "symbolType": "tele2-bs"
+  },
+  {
+    "x": 2499,
+    "y": 278,
+    "title": "Alejas šķērsliela 3, Dagda",
+    "description": "",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 2490,
+    "y": 279,
+    "title": "Dagda/AC1",
+    "description": "Alejas 16A, Dagda",
+    "symbolType": "tet-pm"
   }
 ]
