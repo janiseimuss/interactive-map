@@ -1,0 +1,16 @@
+[
+  {
+    "x": 1366,
+    "y": 763,
+    "title": "Testa punkts",
+    "description": "Šis ir pirmais testa punkts kartes vidū.",
+    "icon": "marker-red"
+  },
+  {
+    "x": 1271,
+    "y": 579,
+    "title": "Iecava",
+    "description": "",
+    "icon": "marker-blue"
+  }
+]
