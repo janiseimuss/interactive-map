@@ -59,7 +59,7 @@
     "x": 812,
     "y": 493,
     "title": "Auce",
-    "description": "",
+    "description": "Sakņu pagrabs, Vecauce",
     "symbolType": "tele2-bs"
   },
   {
@@ -103,5 +103,229 @@
     "title": "Dagda/AC1",
     "description": "Alejas 16A, Dagda",
     "symbolType": "tet-pm"
+  },
+  {
+    "x": 2356,
+    "y": 942,
+    "title": "Balvi/AC1",
+    "description": "Brīvības iela 58, Balvi",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 2199,
+    "y": 398,
+    "title": "Preili/AA1",
+    "description": "Raiņa bulvāris 21, Preiļi",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 2191,
+    "y": 390,
+    "title": "Raiņa bulvāris 21, Preiļi",
+    "description": "",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 2187,
+    "y": 401,
+    "title": "Preili2",
+    "description": "",
+    "symbolType": "tele2-bs"
+  },
+  {
+    "x": 2415,
+    "y": 541,
+    "title": "Rezekne/AC1",
+    "description": "Maskavas iela 5, Rēzekne",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 2407,
+    "y": 543,
+    "title": "Maskavas iela 5, Rēzekne",
+    "description": "",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 2370,
+    "y": 529,
+    "title": "JaunsaimniekiLTK",
+    "description": "",
+    "symbolType": "tele2-bs"
+  },
+  {
+    "x": 2505,
+    "y": 985,
+    "title": "Vilaka/AB9",
+    "description": "Pļavu iela 1a, Viļaka",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 2500,
+    "y": 985,
+    "title": "Pļavu iela 1a, Viļaka",
+    "description": "",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 2187,
+    "y": 965,
+    "title": "Gulbene/AB9",
+    "description": "Rīgas iela 24, Gulbene",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 2181,
+    "y": 964,
+    "title": "Rīgas iela 24, Gulbene",
+    "description": "",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 1461,
+    "y": 1165,
+    "title": "Limbazi/AA1",
+    "description": "Pasta iela 3, Limbaži",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 1454,
+    "y": 1165,
+    "title": "Pasta iela 3, Limbaži",
+    "description": "",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 1673,
+    "y": 1418,
+    "title": "Rujiena/SA9",
+    "description": "Valdemāra iela 14A, Rūjiena",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 1667,
+    "y": 1417,
+    "title": "Valdemāra iela 14, Rūjiena",
+    "description": "",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 1808,
+    "y": 1249,
+    "title": "Strenci/AA8",
+    "description": "Zemitāna iela 5, Strenči",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 1798,
+    "y": 1247,
+    "title": "Zemitāna iela 5, Strenči",
+    "description": "",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 1813,
+    "y": 1262,
+    "title": "Strenci",
+    "description": "GAIDU IELA 22, STRENČI",
+    "symbolType": "tele2-bs"
+  },
+  {
+    "x": 2282,
+    "y": 1131,
+    "title": "Aluksne/AA8",
+    "description": "Ojāra Vācieša 10, Alūksne",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 2275,
+    "y": 1133,
+    "title": "Ojāra Vācieša 10, Alūksne",
+    "description": "",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 2274,
+    "y": 1122,
+    "title": "Aluksne",
+    "description": "Malienas iela 10, Alūksne",
+    "symbolType": "tele2-bs"
+  },
+  {
+    "x": 2001,
+    "y": 749,
+    "title": "Saules iela 17, Madona",
+    "description": "",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 1993,
+    "y": 750,
+    "title": "Madona/AA1",
+    "description": "Saules iela 17, Madona",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 1881,
+    "y": 1117,
+    "title": "Smiltene/AA8",
+    "description": "Dārza iela 1, Smiltene",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 1874,
+    "y": 1116,
+    "title": "Dārza iela 1, Smiltene",
+    "description": "",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 1666,
+    "y": 576,
+    "title": "Aizkraukle/AA1",
+    "description": "Bērzu iela 1, Aizkraukle",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 1658,
+    "y": 575,
+    "title": "Bērzu iela 1, Aizkraukle",
+    "description": "",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 1621,
+    "y": 610,
+    "title": "Skriveri",
+    "description": "",
+    "symbolType": "tele2-bs"
+  },
+  {
+    "x": 1561,
+    "y": 623,
+    "title": "Jumprava",
+    "description": "",
+    "symbolType": "tele2-bs"
+  },
+  {
+    "x": 1501,
+    "y": 652,
+    "title": "Lielvarde",
+    "description": "",
+    "symbolType": "tele2-bs"
+  },
+  {
+    "x": 819,
+    "y": 488,
+    "title": "Auce/AA8",
+    "description": "Raiņa iela 1, Auce",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 808,
+    "y": 486,
+    "title": "Raiņa iela 1, Auce",
+    "description": "",
+    "symbolType": "lvrtc-access"
   }
 ]
