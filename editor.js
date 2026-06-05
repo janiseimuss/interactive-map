@@ -201,7 +201,7 @@ function openEditMarkerForm(index) {
   }, 50);
 }
 
-fetch('data/markers.json')
+fetch(`data/markers.json?v=${Date.now()}`)
   .then(response => response.json())
   .then(points => {
     markersData = points;
