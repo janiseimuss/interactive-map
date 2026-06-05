@@ -12,5 +12,12 @@
     "title": "Iecava",
     "description": "",
     "icon": "marker-blue"
+  },
+  {
+    "x": 2361,
+    "y": 945,
+    "title": "Balvi, LVRTC",
+    "description": "Tele2 BS Balvi, BAL0586\nTet tornis\nLVRTC piekļuves punkts",
+    "icon": "marker-green"
   }
 ]
