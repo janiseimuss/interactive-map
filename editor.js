@@ -15,20 +15,6 @@ let markersData = [];
 let leafletMarkers = [];
 let currentPopup = null;
 
-function createIcon(colorClass) {
-  return L.divIcon({
-    className: '',
-    html: `<div class="custom-marker ${colorClass}"></div>`,
-    iconSize: [18, 18],
-    iconAnchor: [9, 9]
-  });
-}
-
-function clearLeafletMarkers() {
-  leafletMarkers.forEach(marker => map.removeLayer(marker));
-  leafletMarkers = [];
-}
-
 function escapeHtml(text) {
   return String(text ?? '')
     .replaceAll('&', '&amp;')
@@ -38,11 +24,44 @@ function escapeHtml(text) {
     .replaceAll("'", '&#039;');
 }
 
+function getSymbolHtml(symbolType) {
+  switch (symbolType) {
+    case 'tele2-bs':
+      return '<div class="symbol-circle-yellow"></div>';
+    case 'tele2-hub':
+      return '<div class="symbol-circle-purple"></div>';
+    case 'lvrtc-access':
+      return '<div class="symbol-triangle-bluegray"></div>';
+    case 'tet-pm':
+      return '<div class="symbol-triangle-red"></div>';
+    default:
+      return '<div class="symbol-circle-yellow"></div>';
+  }
+}
+
+function createSymbolIcon(symbolType) {
+  const isTriangle = symbolType === 'lvrtc-access' || symbolType === 'tet-pm';
+
+  return L.divIcon({
+    className: '',
+    html: getSymbolHtml(symbolType),
+    iconSize: isTriangle ? [22, 20] : [18, 18],
+    iconAnchor: isTriangle ? [11, 18] : [9, 9],
+    popupAnchor: [0, -10]
+  });
+}
+
+function clearLeafletMarkers() {
+  leafletMarkers.forEach(marker => map.removeLayer(marker));
+  leafletMarkers = [];
+}
+
 function renderMarkers() {
   clearLeafletMarkers();
 
   markersData.forEach((point, index) => {
-    const icon = createIcon(point.icon || 'marker-red');
+    const symbolType = point.symbolType || 'tele2-bs';
+    const icon = createSymbolIcon(symbolType);
 
     const marker = L.marker([point.y, point.x], { icon }).addTo(map);
 
@@ -53,6 +72,15 @@ function renderMarkers() {
 
     leafletMarkers.push(marker);
   });
+}
+
+function getSymbolOptions(selectedValue = 'tele2-bs') {
+  return `
+    <option value="tele2-bs" ${selectedValue === 'tele2-bs' ? 'selected' : ''}>Dzeltens aplis — Tele2 BS</option>
+    <option value="tele2-hub" ${selectedValue === 'tele2-hub' ? 'selected' : ''}>Violets aplis — Tele2 HUB</option>
+    <option value="lvrtc-access" ${selectedValue === 'lvrtc-access' ? 'selected' : ''}>Pelēki zils trijstūris — LVRTC maģistrālais piekļuves punkts</option>
+    <option value="tet-pm" ${selectedValue === 'tet-pm' ? 'selected' : ''}>Sarkans trijstūris — Tet PM</option>
+  `;
 }
 
 function openAddMarkerForm(latlng) {
@@ -73,11 +101,9 @@ function openAddMarkerForm(latlng) {
       </label>
 
       <label>
-        Krāsa:
-        <select id="marker-icon">
-          <option value="marker-red">Sarkans</option>
-          <option value="marker-blue">Zils</option>
-          <option value="marker-green">Zaļš</option>
+        Simbols:
+        <select id="marker-symbol-type">
+          ${getSymbolOptions('tele2-bs')}
         </select>
       </label>
 
@@ -97,7 +123,7 @@ function openAddMarkerForm(latlng) {
     saveBtn.addEventListener('click', () => {
       const title = document.getElementById('marker-title').value.trim();
       const description = document.getElementById('marker-description').value.trim();
-      const icon = document.getElementById('marker-icon').value;
+      const symbolType = document.getElementById('marker-symbol-type').value;
 
       if (!title) {
         alert('Lūdzu ievadi nosaukumu.');
@@ -109,7 +135,7 @@ function openAddMarkerForm(latlng) {
         y: Math.round(latlng.lat),
         title,
         description,
-        icon
+        symbolType
       };
 
       markersData.push(newMarker);
@@ -128,6 +154,8 @@ function openEditMarkerForm(index) {
     map.closePopup(currentPopup);
   }
 
+  const symbolType = point.symbolType || 'tele2-bs';
+
   const popupContent = `
     <div class="editor-form">
       <label>
@@ -141,11 +169,9 @@ function openEditMarkerForm(index) {
       </label>
 
       <label>
-        Krāsa:
-        <select id="edit-marker-icon">
-          <option value="marker-red" ${point.icon === 'marker-red' ? 'selected' : ''}>Sarkans</option>
-          <option value="marker-blue" ${point.icon === 'marker-blue' ? 'selected' : ''}>Zils</option>
-          <option value="marker-green" ${point.icon === 'marker-green' ? 'selected' : ''}>Zaļš</option>
+        Simbols:
+        <select id="edit-marker-symbol-type">
+          ${getSymbolOptions(symbolType)}
         </select>
       </label>
 
@@ -167,7 +193,7 @@ function openEditMarkerForm(index) {
       updateBtn.addEventListener('click', () => {
         const title = document.getElementById('edit-marker-title').value.trim();
         const description = document.getElementById('edit-marker-description').value.trim();
-        const icon = document.getElementById('edit-marker-icon').value;
+        const symbolType = document.getElementById('edit-marker-symbol-type').value;
 
         if (!title) {
           alert('Lūdzu ievadi nosaukumu.');
@@ -178,7 +204,7 @@ function openEditMarkerForm(index) {
           ...markersData[index],
           title,
           description,
-          icon
+          symbolType
         };
 
         renderMarkers();
