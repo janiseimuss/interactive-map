@@ -51,6 +51,21 @@ function createSymbolIcon(symbolType) {
   });
 }
 
+function getZIndex(symbolType) {
+  switch (symbolType) {
+    case 'tet-pm':
+      return 100;
+    case 'lvrtc-access':
+      return 200;
+    case 'tele2-hub':
+      return 300;
+    case 'tele2-bs':
+      return 400;
+    default:
+      return 0;
+  }
+}
+
 function clearLeafletMarkers() {
   leafletMarkers.forEach(marker => map.removeLayer(marker));
   leafletMarkers = [];
@@ -62,8 +77,9 @@ function renderMarkers() {
   markersData.forEach((point, index) => {
     const symbolType = point.symbolType || 'tele2-bs';
     const icon = createSymbolIcon(symbolType);
+    const zIndexOffset = getZIndex(symbolType);
 
-    const marker = L.marker([point.y, point.x], { icon }).addTo(map);
+    const marker = L.marker([point.y, point.x], { icon, zIndexOffset }).addTo(map);
 
     marker.on('click', (e) => {
       L.DomEvent.stopPropagation(e);
