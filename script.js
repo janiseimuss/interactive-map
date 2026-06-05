@@ -20,7 +20,7 @@ function createIcon(colorClass) {
   });
 }
 
-fetch('data/markers.json')
+fetch(`data/markers.json?v=${Date.now()}`)
   .then(response => response.json())
   .then(points => {
     points.forEach(point => {
