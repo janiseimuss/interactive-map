@@ -127,7 +127,7 @@ html, body {
   width: 16px;
   height: 16px;
   background: #d62828;
-  border: 2px solid white;
+  border: 2px solid black;
   box-shadow: 0 0 4px rgba(0,0,0,0.4);
 }
 
