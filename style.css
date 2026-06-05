@@ -97,17 +97,17 @@ html, body {
 /* ===== Jaunie simboli ===== */
 
 .symbol-circle-yellow {
-  width: 18px;
-  height: 18px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
-  background: #f4d03f;
+  background: #FFFF00;
   border: 2px solid white;
   box-shadow: 0 0 4px rgba(0,0,0,0.4);
 }
 
 .symbol-circle-purple {
-  width: 18px;
-  height: 18px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background: #7e57c2;
   border: 2px solid white;
