@@ -4,20 +4,20 @@
     "y": 763,
     "title": "Testa punkts",
     "description": "Šis ir pirmais testa punkts kartes vidū.",
-    "icon": "marker-red"
+    "symbolType": "tet-pm"
   },
   {
     "x": 1271,
     "y": 579,
     "title": "Iecava",
     "description": "",
-    "icon": "marker-blue"
+    "symbolType": "tele2-hub"
   },
   {
     "x": 2361,
     "y": 945,
     "title": "Balvi, LVRTC",
     "description": "Tele2 BS Balvi, BAL0586\nTet tornis\nLVRTC piekļuves punkts",
-    "icon": "marker-green"
+    "symbolType": "tele2-hub"
   }
 ]
