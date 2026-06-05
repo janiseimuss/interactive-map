@@ -33,7 +33,7 @@ function getSymbolHtml(symbolType) {
     case 'lvrtc-access':
       return '<div class="symbol-triangle-bluegray"></div>';
     case 'tet-pm':
-      return '<div class="symbol-triangle-red"></div>';
+      return '<div class="symbol-square-red"></div>';
     default:
       return '<div class="symbol-circle-yellow"></div>';
   }
