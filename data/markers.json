@@ -327,5 +327,124 @@
     "title": "Raiņa iela 1, Auce",
     "description": "",
     "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 1286,
+    "y": 445,
+    "title": "Bauska/SA1",
+    "description": "Slimnīcas iela 9, Bauska",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 1275,
+    "y": 445,
+    "title": "Slimnīcas iela 9, Bauska",
+    "description": "",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 1282,
+    "y": 453,
+    "title": "Slimnīcas 9, Bauska",
+    "description": "",
+    "symbolType": "tele2-bs"
+  },
+  {
+    "x": 940,
+    "y": 595,
+    "title": "Dobele/AA8",
+    "description": "Zaļā iela 12, Dobele",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 930,
+    "y": 595,
+    "title": "Zaļā iela 12, Dobele",
+    "description": "",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 358,
+    "y": 666,
+    "title": "Aizpute/AA9",
+    "description": "Zvaigžņu  iela 7, Aizpute",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 349,
+    "y": 665,
+    "title": "Zvaigžņu  iela 7, Aizpute",
+    "description": "",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 495,
+    "y": 819,
+    "title": "Kuldiga/AA1",
+    "description": "Liepājas iela 34, Kuldīga",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 489,
+    "y": 818,
+    "title": "Liepājas iela 34, Kuldīga",
+    "description": "",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 506,
+    "y": 632,
+    "title": "Skrunda/AA9",
+    "description": "Ventas iela 13, Skrunda",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 497,
+    "y": 631,
+    "title": "Ventas iela 13, Skrunda",
+    "description": "",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 357,
+    "y": 1097,
+    "title": "Jūras iela 9, Ventspils",
+    "description": "",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 368,
+    "y": 1097,
+    "title": "Ventspils/AA8",
+    "description": "Ģertrūdes 32B, Ventspils",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 156,
+    "y": 556,
+    "title": "Z.Mauriņas iela 18, Grobiņa",
+    "description": "",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 164,
+    "y": 557,
+    "title": "Grobina/AA9",
+    "description": "Z.Mauriņas iela 18, Grobiņa",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 1728,
+    "y": 608,
+    "title": "Koknese/AA9",
+    "description": "Lāčplēša iela 1, Koknese",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 1722,
+    "y": 607,
+    "title": "Lāčplēša iela 1, Koknese",
+    "description": "",
+    "symbolType": "lvrtc-access"
   }
 ]
