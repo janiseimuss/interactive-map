@@ -446,5 +446,103 @@
     "title": "Lāčplēša iela 1, Koknese",
     "description": "",
     "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 2375,
+    "y": 138,
+    "title": "Kraslava/SA1",
+    "description": "Sv. Ludvika Laukums 3, Krāslava",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 2364,
+    "y": 137,
+    "title": "Sv. Ludvika Laukums 3, Krāslava",
+    "description": "",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 1473,
+    "y": 666,
+    "title": "Kegums/AC9",
+    "description": "RĪGAS IELA 10, ĶEGUMS",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 1467,
+    "y": 666,
+    "title": "Aka Nr.17, Ķeguma prospekta un Skolas ielas krustojums",
+    "description": "Ārtelpu",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 212,
+    "y": 778,
+    "title": "Pavilosta/AB1",
+    "description": "Dzintaru iela 73, Pāvilosta",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 207,
+    "y": 777,
+    "title": "Dzintaru iela 73, Pāvilosta",
+    "description": "",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 1999,
+    "y": 422,
+    "title": "Livani/AA9",
+    "description": "RĪGAS IELA 108A, LĪVĀNI",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 1994,
+    "y": 421,
+    "title": "Aka Nr.117, Rīgas un Lāčplēša ielas krustojums, Līvāni",
+    "description": "Ārtelpu",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 1340,
+    "y": 1319,
+    "title": "Salacgriva/AA1",
+    "description": "Sila iela 8, Salacgrīva",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 1335,
+    "y": 1318,
+    "title": "Sila iela 8, Salacgrīva",
+    "description": "",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 1511,
+    "y": 938,
+    "title": "Televīzijas iela 15, Sigulda",
+    "description": "Siguldas TV tornis",
+    "symbolType": "lvrtc-access"
+  },
+  {
+    "x": 1518,
+    "y": 935,
+    "title": "Sigulda/SA1",
+    "description": "PAPARŽU IELA 6, SIGULDA",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 1776,
+    "y": 412,
+    "title": "Viesite/AC9",
+    "description": "A.Brodeles iela 40A, Viesīte",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 1769,
+    "y": 411,
+    "title": "A.Brodeles iela 40A, Viesīte",
+    "description": "",
+    "symbolType": "lvrtc-access"
   }
 ]
