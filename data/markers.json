@@ -137,7 +137,7 @@
     "y": 541,
     "title": "Rezekne/AC1",
     "description": "Maskavas iela 5, Rēzekne",
-    "symbolType": "tet-pm"
+    "symbolType": "tele2-hub"
   },
   {
     "x": 2407,
@@ -284,7 +284,7 @@
     "y": 576,
     "title": "Aizkraukle/AA1",
     "description": "Bērzu iela 1, Aizkraukle",
-    "symbolType": "tet-pm"
+    "symbolType": "tele2-hub"
   },
   {
     "x": 1658,
@@ -873,5 +873,68 @@
     "title": "Skrunda",
     "description": "Stacijas 1, Skrunda",
     "symbolType": "tele2-bs"
+  },
+  {
+    "x": 1238,
+    "y": 800,
+    "title": "Bieķensalas 9",
+    "description": "",
+    "symbolType": "tele2-hub"
+  },
+  {
+    "x": 1251,
+    "y": 791,
+    "title": "TV tornis",
+    "description": "",
+    "symbolType": "tele2-hub"
+  },
+  {
+    "x": 911,
+    "y": 812,
+    "title": "Tukums/AA9",
+    "description": "Pils 22, Tukums",
+    "symbolType": "tele2-hub"
+  },
+  {
+    "x": 1146,
+    "y": 807,
+    "title": "Jurmala/AA1",
+    "description": "Lienes 16/18, Jūrmala",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 139,
+    "y": 549,
+    "title": "Liepaja/AA9",
+    "description": "Siļķu 29, Liepāja",
+    "symbolType": "tele2-hub"
+  },
+  {
+    "x": 1111,
+    "y": 602,
+    "title": "Jelgava/AA1",
+    "description": "Pasta 28, Jelgava",
+    "symbolType": "tele2-hub"
+  },
+  {
+    "x": 2137,
+    "y": 122,
+    "title": "Daugavpils/AG9",
+    "description": "Valkas 3, Daugavpils",
+    "symbolType": "tele2-hub"
+  },
+  {
+    "x": 1706,
+    "y": 1184,
+    "title": "Valmiera/AA9",
+    "description": "Diakonāta 6, Valmiera",
+    "symbolType": "tele2-hub"
+  },
+  {
+    "x": 1661,
+    "y": 1039,
+    "title": "Cesis/AA1",
+    "description": "Raunas 13, Cēsis",
+    "symbolType": "tele2-hub"
   }
 ]
