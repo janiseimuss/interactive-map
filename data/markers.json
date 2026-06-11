@@ -936,5 +936,12 @@
     "title": "Cesis/AA1",
     "description": "Raunas 13, Cēsis",
     "symbolType": "tele2-hub"
+  },
+  {
+    "x": 367,
+    "y": 1108,
+    "title": "Ventspils/SA1",
+    "description": "Kaļķu 2, Ventspils",
+    "symbolType": "tele2-hub"
   }
 ]
