@@ -943,5 +943,68 @@
     "title": "Ventspils/SA1",
     "description": "Kaļķu 2, Ventspils",
     "symbolType": "tele2-hub"
+  },
+  {
+    "x": 1447,
+    "y": 905,
+    "title": "Incukalns/AE1",
+    "description": "Atmiņas, Inčukalna pag.",
+    "symbolType": "tet-pm"
+  },
+  {
+    "x": 1443,
+    "y": 906,
+    "title": "Atminas",
+    "description": "Atmiņas, Inčukalna pag.",
+    "symbolType": "tele2-bs"
+  },
+  {
+    "x": 713,
+    "y": 994,
+    "title": "Talsi/AA8",
+    "description": "Lielā 4, Talsi",
+    "symbolType": "tele2-hub"
+  },
+  {
+    "x": 2289,
+    "y": 1114,
+    "title": "LE tornis",
+    "description": "MERĶEĻA IELA 15G, ALŪKSNE",
+    "symbolType": "tele2-bs"
+  },
+  {
+    "x": 2370,
+    "y": 952,
+    "title": "LE tornis",
+    "description": "EZERA IELA 53, BALVI",
+    "symbolType": "tele2-bs"
+  },
+  {
+    "x": 1901,
+    "y": 1346,
+    "title": "Tornis",
+    "description": "DOMES BULVĀRIS 11A, VALKA",
+    "symbolType": "tele2-bs"
+  },
+  {
+    "x": 2202,
+    "y": 391,
+    "title": "LE tornis",
+    "description": "AGLONAS IELA 60, PREIĻI",
+    "symbolType": "tele2-bs"
+  },
+  {
+    "x": 1342,
+    "y": 796,
+    "title": "Tornis",
+    "description": "JUGLASLĪČI, LĪČI, STOPIŅU PAG.",
+    "symbolType": "tele2-bs"
+  },
+  {
+    "x": 1262,
+    "y": 448,
+    "title": "LE tornis",
+    "description": "MEŽOTNES IELA 31C, BAUSKA",
+    "symbolType": "tele2-bs"
   }
 ]
