@@ -14,13 +14,6 @@
     "symbolType": "tele2-bs"
   },
   {
-    "x": 347,
-    "y": 490,
-    "title": "Priekule",
-    "description": "Ganību iela 6a, Priekule",
-    "symbolType": "tele2-bs"
-  },
-  {
     "x": 441,
     "y": 460,
     "title": "Vainode",
@@ -53,13 +46,6 @@
     "y": 438,
     "title": "Ruba",
     "description": "Zaļumi, Ruba",
-    "symbolType": "tele2-bs"
-  },
-  {
-    "x": 812,
-    "y": 493,
-    "title": "Auce",
-    "description": "Sakņu pagrabs, Vecauce",
     "symbolType": "tele2-bs"
   },
   {
@@ -145,13 +131,6 @@
     "title": "Maskavas iela 5, Rēzekne",
     "description": "",
     "symbolType": "lvrtc-access"
-  },
-  {
-    "x": 2370,
-    "y": 529,
-    "title": "JaunsaimniekiLTK",
-    "description": "Laimas, Ozolmuiža",
-    "symbolType": "tele2-bs"
   },
   {
     "x": 2505,
@@ -292,13 +271,6 @@
     "title": "Bērzu iela 1, Aizkraukle",
     "description": "",
     "symbolType": "lvrtc-access"
-  },
-  {
-    "x": 1621,
-    "y": 610,
-    "title": "Skriveri",
-    "description": "Lielkažoki 1, Skrīveru pag.",
-    "symbolType": "tele2-bs"
   },
   {
     "x": 1561,
@@ -546,13 +518,6 @@
     "symbolType": "lvrtc-access"
   },
   {
-    "x": 1846,
-    "y": 294,
-    "title": "Akniste",
-    "description": "Pasta iela 4A, Aknīste",
-    "symbolType": "tele2-bs"
-  },
-  {
     "x": 1911,
     "y": 1343,
     "title": "Valka2",
@@ -567,20 +532,6 @@
     "symbolType": "tele2-bs"
   },
   {
-    "x": 1158,
-    "y": 781,
-    "title": "Skarduciems",
-    "description": "Kaķīšu iela 1, Skārduciems",
-    "symbolType": "tele2-bs"
-  },
-  {
-    "x": 1322,
-    "y": 698,
-    "title": "Pulkarne",
-    "description": "Vēveru Būmaņi",
-    "symbolType": "tele2-bs"
-  },
-  {
     "x": 1316,
     "y": 701,
     "title": "Kekava/AR9",
@@ -588,25 +539,11 @@
     "symbolType": "tet-pm"
   },
   {
-    "x": 1359,
-    "y": 715,
-    "title": "Daugmale",
-    "description": "Alpi, Daugmale",
-    "symbolType": "tele2-bs"
-  },
-  {
     "x": 1365,
     "y": 711,
     "title": "Daugmale/AB1",
     "description": "DAUGMALE",
     "symbolType": "tet-pm"
-  },
-  {
-    "x": 1278,
-    "y": 737,
-    "title": "Alejas",
-    "description": "Tornis, Krogsils",
-    "symbolType": "tele2-bs"
   },
   {
     "x": 1347,
@@ -623,25 +560,11 @@
     "symbolType": "tet-pm"
   },
   {
-    "x": 1579,
-    "y": 424,
-    "title": "Erberge",
-    "description": "Liepu 3, Ērberģe",
-    "symbolType": "tele2-bs"
-  },
-  {
     "x": 1586,
     "y": 420,
     "title": "Mazzalve/AB1",
     "description": "ĒRBERĢE, MAZZALVES PAG.",
     "symbolType": "tet-pm"
-  },
-  {
-    "x": 1471,
-    "y": 517,
-    "title": "Valle",
-    "description": "Liepu 15, Valle",
-    "symbolType": "tele2-bs"
   },
   {
     "x": 1478,
@@ -714,25 +637,11 @@
     "symbolType": "tet-pm"
   },
   {
-    "x": 653,
-    "y": 713,
-    "title": "Jaunlutrini",
-    "description": "Priedītes, Jaunlutriņu pag.",
-    "symbolType": "tele2-bs"
-  },
-  {
     "x": 659,
     "y": 708,
     "title": "Jaunlutrini/AC1",
     "description": "KALĒTI, JAUNLUTRIŅI",
     "symbolType": "tet-pm"
-  },
-  {
-    "x": 857,
-    "y": 658,
-    "title": "Jaunpils",
-    "description": "Jaunpils ATC, Jaunpils pag.",
-    "symbolType": "tele2-bs"
   },
   {
     "x": 863,
@@ -742,13 +651,6 @@
     "symbolType": "tet-pm"
   },
   {
-    "x": 863,
-    "y": 614,
-    "title": "Biksti",
-    "description": "Mehāniskās darbnīcas, Annenieku pag.",
-    "symbolType": "tele2-bs"
-  },
-  {
     "x": 941,
     "y": 606,
     "title": "Auri/AD1",
@@ -756,25 +658,11 @@
     "symbolType": "tet-pm"
   },
   {
-    "x": 936,
-    "y": 600,
-    "title": "Lielberze",
-    "description": "Augstkalni (Oliņas), Auru pag.",
-    "symbolType": "tele2-bs"
-  },
-  {
     "x": 2375,
     "y": 525,
     "title": "Ozolmuiza/AA9",
     "description": "OZOLMUIŽA",
     "symbolType": "tet-pm"
-  },
-  {
-    "x": 2387,
-    "y": 445,
-    "title": "LuznavaLTK",
-    "description": "Rāznas 10, Lūznava",
-    "symbolType": "tele2-bs"
   },
   {
     "x": 2393,
@@ -826,13 +714,6 @@
     "symbolType": "tele2-bs"
   },
   {
-    "x": 391,
-    "y": 985,
-    "title": "Piltene",
-    "description": "Zlēku 14, Piltene",
-    "symbolType": "tele2-bs"
-  },
-  {
     "x": 775,
     "y": 857,
     "title": "Kandava2",
@@ -858,13 +739,6 @@
     "y": 938,
     "title": "Engure",
     "description": "Baltcom GSM bāzes stacija, Engure",
-    "symbolType": "tele2-bs"
-  },
-  {
-    "x": 960,
-    "y": 866,
-    "title": "ApsuciemsL",
-    "description": "Lāčkrasti, Apšuciems",
     "symbolType": "tele2-bs"
   },
   {
